@@ -6,12 +6,6 @@ import random
 
 # --- 1. Game Constants and Configuration ---
 
-# Screen dimensions
-SCREEN_WIDTH = 800
-SCREEN_HEIGHT = 600
-SCREEN_SIZE = (SCREEN_WIDTH, SCREEN_HEIGHT)
-CAPTION = "Simple Pygame Platformer"
-
 # Colors (RGB)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
@@ -319,4 +313,5 @@ def main():
     sys.exit()
 
 if __name__ == "__main__":
+
     main()
